@@ -8,6 +8,6 @@ The content, style image and the transfered image:<br>
 `Fast_Neural_Style_Transfer.ipynb` uses available [model from Tensorflow Hub](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2) and apply it to the images style transfer
 
 The content, style image and the transfered image:<br>
-<img src="./transfered.jpg" width="1200" height="400">
+<img src="./transfered_img.jpg" width="1200" height="400">
 
 
