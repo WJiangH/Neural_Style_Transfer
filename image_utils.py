@@ -48,7 +48,7 @@ def imshow(image, title=None):
         plt.title(title)
 
 
-def show_images_with_objects(images, titles=[]):
+def show_images_with_objects(images, titles=[], save_name = 'sample.jpg'):
     '''displays a row of images with corresponding titles'''
     if len(images) != len(titles):
         return
@@ -59,7 +59,7 @@ def show_images_with_objects(images, titles=[]):
         plt.xticks([])
         plt.yticks([])
         imshow(image, title)
-    plt.savefig('sample.jpg', bbox_inches='tight')
+    plt.savefig(save_name, bbox_inches='tight')
 
 
 def display_gif(gif_path):
